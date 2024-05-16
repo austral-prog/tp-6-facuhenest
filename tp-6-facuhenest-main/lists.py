@@ -1,5 +1,3 @@
-# Replace the "ANSWER HERE" with your answer
-
 def remove_elements(list_to_remove_elements):
     longitud = len(list_to_remove_elements)
     if longitud == 0:
@@ -55,7 +53,7 @@ def list_of_lists(list_of_lists_to_modify):
     else:
         first_modification = list_of_lists_to_modify[0][0:2]
 
-    #modifico la segunda línea
+
 
     if len(list_of_lists_to_modify[1]) < 2:
         second_modification = second_modification
@@ -64,7 +62,6 @@ def list_of_lists(list_of_lists_to_modify):
     else:
         second_modification = list_of_lists_to_modify[1][1:4]
 
-    #modifico la tercera lista
 
     if len(list_of_lists_to_modify[2])==0:
         third_modification = third_modification
